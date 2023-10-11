@@ -34,4 +34,61 @@ html {
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color:#9c6644 ;
+  color: #242121;
+  line-height: 1.6;
+  min-width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+    align-items: right;
+}
+
+
+main{
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.flex-container{
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  flex-direction: column;
+  background-color: white;
+  width: 400px;
+  max-width: 80%;
+  border-radius: 10%;
+  box-shadow: black 0px 8px 40px;
+  margin: 0 auto;
+  padding: 20px;
+  color: #ddb892;
+  text-align: left;
+
+}
+
+.item{
+  text-align: center;
+  max-width: 50px;
+  padding: 40px;
+  margin: 0px;
+  text-align: center;
+  border-radius: 10px;
+
+  background-color: brown;
+}
+.btn {
+  margin-top: 400px;
+  background-color: brown;
+  color: white;
+  border-radius: 400px;
+  text-decoration: none;
+
+}
+.coffe-image{
+  object-fit: cover;
+    width: 200px;
+    height: 200px;
 }
